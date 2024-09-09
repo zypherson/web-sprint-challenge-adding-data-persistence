@@ -13,7 +13,7 @@ exports.up = function(knex) {
     })
     .createTable('resources', tbl =>{
     tbl.increments('resource_id').primary(); 
-    tbl.string('resource_name').notNullable().unique();
+    tbl.string('resource_name').unique().notNullable();
     tbl.text('resource_description'); 
     })
     .createTable('tasks', tbl =>{
