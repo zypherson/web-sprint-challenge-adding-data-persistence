@@ -10,7 +10,7 @@
     "rollback":"knex migrate:rollback",
     "migrateUp":"knex migrate:up",
     "migrateDown":"knex migrate:down",
-    "makeSeed":"knex seed:make 01-seeds",
+    "makeSeed":"knex seed:make 02-seeds",
     "seed":"knex seed:run"
   },
   "repository": {

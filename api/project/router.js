@@ -17,7 +17,7 @@ router.get('/',async (req,res,next)=>{
 
 router.post('/', (req,res,next) =>{
 
-    if(!req.body.project_name){
+    if(!req.body.project_name ){
         res.status(400).json({message:'project name must be included'})
     }else{
     
